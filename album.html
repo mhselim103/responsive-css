@@ -19,6 +19,7 @@
             margin: 10px;
             position: relative;
             border-radius: 20px;
+            overflow: hidden;
         }
         .photo img {
             width: 100%;
@@ -35,6 +36,10 @@
         }
         .photo-frame:hover .photo-detail{
             display: block;
+        }
+        .photo-frame:hover .photo {
+            transform: scale(1.5);
+            transition: transform .5s ease-in-out;
         }
     </style>
 </head>
